@@ -1,33 +1,19 @@
 
-# QuCreate Streamlit Lab
+# Algorithmic Insurance Premium Calculator
 
-This repository contains a Streamlit application for demonstrating the features and capabilities of the QuCreate platform.
-
-## Features
-- Streamlit sidebar with a company logo.
-- Template for easy development.
-- Placeholder for adding custom code.
+This Streamlit application calculates the insurance premium for algorithmic insurance contracts, focusing on medical malpractice lawsuits related to malignant tumor detection.
 
 ## Getting Started
 
-### Prerequisites
-- Python 3.8 or later
-- Streamlit installed (see `requirements.txt`).
+1.  Clone the repository.
+2.  Create a virtual environment: `python -m venv venv`
+3.  Activate the virtual environment: `source venv/bin/activate` (Linux/macOS) or `venv\Scripts\activate` (Windows)
+4.  Install the dependencies: `pip install -r requirements.txt`
+5.  Run the application: `streamlit run app.py`
 
-### Installation
-1. Clone the repository
-2. Install dependencies:
-`pip install -r requirements.txt`
+## Docker
 
-### Running the Application
-1. Run the Streamlit app:
+1.  Build the Docker image: `docker build -t algorithmic-insurance .`
+2.  Run the Docker container: `docker run -p 8501:8501 algorithmic-insurance`
 
-### Development
-1. Modify the `app.py` file to add your custom code.
-2. Use the placeholder section (`# Code goes here`) to add new functionality.
-
-### Deployment
-- Deploy your Streamlit app using Streamlit Sharing, Docker, or any other platform supporting Python web applications.
-
-## License
-© 2025 QuantUniversity. All Rights Reserved. Educational use only. For licensing details, please contact QuantUniversity.
+Open your browser and go to `http://localhost:8501` to view the application.
